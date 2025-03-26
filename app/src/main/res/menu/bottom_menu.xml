@@ -12,7 +12,7 @@
         />
 
     <item android:id="@+id/bottom_cart"
-        android:title="cart"
+        android:title="Lms"
         android:icon="@drawable/cart"
         />
 

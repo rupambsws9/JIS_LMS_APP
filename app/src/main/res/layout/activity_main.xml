@@ -37,7 +37,6 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/bottomAppBar"
                 android:layout_gravity="bottom"
-                android:backgroundTint="@color/blue"
                 app:fabCradleMargin="10dp"
                 app:fabCradleRoundedCornerRadius="50dp">
 
@@ -46,8 +45,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/bottom_navigation"
                     app:labelVisibilityMode="labeled"
-                    app:menu="@menu/bottom_menu"
-                    android:background="@android:color/transparent">
+                    app:menu="@menu/bottom_menu">
 
                 </com.google.android.material.bottomnavigation.BottomNavigationView>
             </com.google.android.material.bottomappbar.BottomAppBar>
@@ -61,8 +59,6 @@
        android:layout_height="match_parent"
        android:id="@+id/navigation_drawer"
        android:layout_gravity="start"
-       app:itemIconTint="@color/blue"
-       app:itemTextColor="@color/blue"
        app:headerLayout="@layout/nav_header"
        app:menu="@menu/nav_menu"/>
 </androidx.drawerlayout.widget.DrawerLayout>

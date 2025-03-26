@@ -13,6 +13,6 @@ class cartfragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cartfragment, container, false)
+        return inflater.inflate(R.layout.fragment_lms_fragment, container, false)
     }
 }
