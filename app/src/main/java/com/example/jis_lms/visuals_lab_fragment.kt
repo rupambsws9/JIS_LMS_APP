@@ -6,13 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-class primefragment : Fragment() {
+class visuals_lab_fragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_primefragment, container, false)
+        return inflater.inflate(R.layout.fragment_visual_lab_fragment, container, false)
     }
+
 }

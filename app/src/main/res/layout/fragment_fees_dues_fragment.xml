@@ -3,15 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".freshfragment">
+    tools:context=".fees_dues_fragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Fresh fragment"
+        android:text="Fees  fragment"
         android:textSize="40sp"
         android:gravity="center"
         />
-
 </FrameLayout>

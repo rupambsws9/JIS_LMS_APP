@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn = "navigation_view">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <group
-        android:checkableBehavior="single">
+    <group android:checkableBehavior="single">
 
-        <item android:id="@+id/nav_prime"
-            android:icon="@drawable/prime"
-            android:title="Prime"/>
+        <item
+            android:id="@+id/nav_Fees_and_dues"
+            android:icon="@drawable/fees_dues"
+            android:title="Fees and Dues" />
 
-        <item android:id="@+id/nav_fashion"
-            android:icon="@drawable/fashion"
-            android:title="fashion"/>
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/notice"
+            android:title="Notice" />
 
-        <item android:id="@+id/nav_electronics"
-            android:icon="@drawable/electronics"
-            android:title="electronics"/>
+        <item
+            android:id="@+id/nav_visual_labs"
+            android:icon="@drawable/lab"
+            android:title="visual Labs" />
 
-        <item android:id="@+id/nav_fresh"
-            android:icon="@drawable/fresh"
-            android:title="fresh"/>
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/event"
+            android:title="Events" />
 
-        <item android:id="@+id/nav_beauty"
-            android:icon="@drawable/beauty"
-            android:title="beauty"/>
+        <item
+            android:id="@+id/nav_placement"
+            android:icon="@drawable/placement"
+            android:title="placement" />
+    </group>
 
-        <item android:id="@+id/nav_furniture"
-            android:icon="@drawable/furniture"
-            android:title="furniture"/>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="LogOut" />
     </group>
 
 
